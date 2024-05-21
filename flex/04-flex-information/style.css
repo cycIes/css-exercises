@@ -24,3 +24,42 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* CHANGES */
+body {
+  /*
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  unnecessary
+  */
+  text-align: center;
+}
+
+.title { /* solution added instead of above changes */
+  margin-bottom: 32px;
+}
+
+.plants {
+  display: flex;
+  gap: 52px; 
+  justify-content: center; /* previously space evenly */
+}
+
+.item {
+  /*
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  unnecessary
+  */
+  max-width: 200px; /* looked at solution, prevents text from being inline with image */
+}
+
+/*
+.text {
+  text-align: center;
+}
+unnecessary
+*/
